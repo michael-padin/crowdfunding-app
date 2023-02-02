@@ -52,7 +52,7 @@ export const StateContextProvider = ({ children }) => {
             }))
 
             return parsedCampaigns
-            
+
         } catch (error) {
             console.log(error);
         }
