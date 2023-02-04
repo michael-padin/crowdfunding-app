@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src",
+    "checkJs": false,
+    "target": "ES2022",
+    "module": "es2015"
+  },
+  "include": ["src"],
+  "exclude": [
+    "dist",
+    "node_modules",
+    "build",
+    ".vscode",
+    ".nuxt",
+    "coverage",
+    "jspm_packages",
+    "tmp",
+    "temp",
+    "bower_components",
+    ".npm",
+    ".yarn"
+  ]
+}
